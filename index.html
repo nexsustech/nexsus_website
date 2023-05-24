@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<style>
+  .green-circle-check {
+    color: green;
+
+    
+    /* border-radius: 50%;
+    border: 1px solid green;
+    padding: 2px; */
+  }
+
+  .list-unstyled li {
+    margin-bottom: 10px; /* Adjust the desired line gap */
+  }
+</style>
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -10,9 +25,16 @@
   <meta content="Leading provider of innovative and cost-effective IT solutions that empower businesses of all sizes to achieve their goals and stay ahead in the digital era." name="description">
   <meta content="" name="keywords">
 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/nds_favicon.png" rel="icon">
+  <link href="assets/img/nds_favicon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -44,7 +66,7 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html"><img src="" alt=""></a></h1>
+      <h1 class="logo me-auto"><a href="index.html"><img src="assets/img/nds_logo.png" alt=""></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -73,7 +95,7 @@
             </ul>
           </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><a class="getstarted scrollto" href="#contact">Get Started</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -87,13 +109,13 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-          <h1>Simplifying Technology, Amplifying Growth.
+          <h1>Simplifying Technology, Amplifying Success.
 
           </h1>
-          <h2>Boost your business with our cutting-edge technology solutions and tools
+          <h2>Boost your business with our cutting-edge technology solutions and services
           </h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="#contact" class="btn-get-started scrollto">Get Started</a>
             <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
           </div>
         </div>
@@ -167,7 +189,7 @@
             </ul>-->
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
-            <img src="assets/img/hero-img.png" class="img-fluid animated" alt=""> 
+            <img src="assets/img/skills.png" class="img-fluid animated" alt=""> 
           </div> 
         </div>
 
@@ -299,8 +321,17 @@
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4><a href="">Application Development Services
               </a></h4>
-              <p>Our Application Development Services create custom software solutions that cater to the unique needs of businesses. We offer a range of services are:
-              </p>
+              <p>Our Application Development Services create custom software solutions that cater to the unique needs of businesses. We offer:
+              </p> <br>
+              <ul class="list-unstyled">
+                <li><i class="fas fa-check-circle green-circle-check"></i> Custom app development</li>
+                <li><i class="fas fa-check-circle green-circle-check"></i> AR/VR app development</li>
+                <li><i class="fas fa-check-circle green-circle-check"></i> AI/ML app development</li>
+                <li><i class="fas fa-check-circle green-circle-check"></i> ERP app development</li>
+              </ul>
+              
+              
+              
             </div>
           </div>
 
@@ -308,26 +339,52 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="">Communication Services              </a></h4>
-              <p>Our Communication Services help businesses communicate with their customers or employees using digital channels. We offer services are:
+              <p>Our Communication Services help businesses communicate with their customers or employees using digital channels. We offer:
               </p>
+              <br>
+              <ul class="list-unstyled">
+                <li><i class="fas fa-check-circle green-circle-check"></i> Whatsapp messaging services</li>
+                <li><i class="fas fa-check-circle green-circle-check"></i> SMS messaging services</li>
+                <li><i class="fas fa-check-circle green-circle-check"></i> Email marketing services</li>
+                <li><i class="fas fa-check-circle green-circle-check"></i> IVR calling services</li>
+                <li><i class="fas fa-check-circle green-circle-check"></i> Video content services</li>
+              </ul>
+              
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Data Services              </a></h4>
-              <p>Our Data Services provide businesses with the tools to collect, analyze, and interpret data to make informed decisions. We offer services are:
+              <h4><a href="">Data Services          </a></h4> <br>
+              <p>Our Data Services provide businesses with the tools to collect, analyze, and interpret data to make informed decisions. We offer:
               </p>
+              <br> 
+              <ul class="list-unstyled">
+                <li><i class="fas fa-check-circle green-circle-check"></i> Leads generation</li>
+                <li><i class="fas fa-check-circle green-circle-check"></i> Web scraping</li>
+                <li><i class="fas fa-check-circle green-circle-check"></i> Data labeling</li>
+                <li><i class="fas fa-check-circle green-circle-check"></i> Business Intelligence</li>
+              </ul>
+              
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4><a href="">Geo Spatial Services              </a></h4>
-              <p>Our Geo Spatial Services offer businesses location-based data and analysis through mapping, geocoding, and spatial analysis. We offer services are:
+              <h4><a href="">Geo Spatial Services              </a></h4> 
+              <p>Our Geo Spatial Services offer businesses location-based data and analysis through mapping, geocoding, and spatial analysis. We offer:
               </p>
+              <br>
+              <ul class="list-unstyled">
+                <li><i class="fas fa-check-circle green-circle-check"></i> Location-based marketing</li>
+                <li><i class="fas fa-check-circle green-circle-check"></i> Create custom maps</li>
+                <li><i class="fas fa-check-circle green-circle-check"></i> Employee/Asset tracking</li>
+                <li><i class="fas fa-check-circle green-circle-check"></i> Optimize field operations</li>
+                <li><i class="fas fa-check-circle green-circle-check"></i> Visualize geospatial data</li>
+              </ul>
+              
             </div>
           </div>
 
@@ -342,11 +399,11 @@
 
         <div class="row">
           <div class="col-lg-9 text-center text-lg-start">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
+            <h3>Connect with our team to find the solutions for your needs and grow together</h3>
+
+ </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="#">Let's Chat</a>
           </div>
         </div>
 
